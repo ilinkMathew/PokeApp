@@ -1,6 +1,6 @@
 # Pokemon & Shakespeare
 
-![logo](https://github.com/ilinkMathew/PokeApp/blob/main/src/assets/logo.svg?raw=true&size=100)
+<img src="https://github.com/ilinkMathew/PokeApp/blob/main/src/assets/logo.svg" width="300" height="300">
 
 ---
 
