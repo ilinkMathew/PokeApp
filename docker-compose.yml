@@ -8,4 +8,4 @@ services:
       - "8080:8080"
     volumes:
       - ./src:/app/src
-      - ./src/tests:/app/src/tests
+      - ./tests:/app/tests
