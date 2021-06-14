@@ -9,7 +9,10 @@ describe('Favourites', () => {
         const onFavChange = jest.fn()
         const { container } = render(<Favouries onFavChange={() => onFavChange} favList={favList} />)
         const title = container.querySelector('h3')
-        expect(title.textContent).toEqual(`Favourites (${favList.length})`);
+        if (title) {
+            expect(title.textContent).toEqual(`Favourites (${favList.length})`);
+        }
+
     })
 
     it(`Given the 'Favourite list', has x items it should display x fav items'`, () => {
