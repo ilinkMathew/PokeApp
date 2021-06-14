@@ -1,0 +1,22 @@
+.favouritesContainer {
+  opacity: 50%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+}
+.header > h3 {
+  margin: 0px;
+}
+.header > a {
+  font-size: 12px;
+}
+.pokemon {
+  margin: 10px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}

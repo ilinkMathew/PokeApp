@@ -1,0 +1,12 @@
+.likeButton {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  fill: lightgray;
+}
+.active {
+  fill: red !important;
+  display: flex;
+  background-color: transparent;
+  border: none;
+}
