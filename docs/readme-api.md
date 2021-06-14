@@ -28,7 +28,7 @@ Pokemon Species API
 }
 ```
 
-The `flavor_text_entries` is an arrray of flavor_text. So for the requirement we need to filter the array by browser language and choose the first entry from the filtered array
+The `flavor_text_entries` is an arrray of flavor_text. So for the requirement we need to filter the array by `en` language and choose the first entry from the filtered array
 
 ### Shakespeare Translator API
 
